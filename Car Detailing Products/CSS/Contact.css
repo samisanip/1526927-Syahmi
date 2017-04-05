@@ -1,0 +1,52 @@
+﻿body{
+
+}
+   
+#contact fieldset{
+    width:5%;
+    
+    
+}
+#contact tr td{
+    font-size:20px;
+    color:white;
+      
+}
+#contact table{
+    
+   padding-left:300px;
+   
+  
+}
+#contact legend{
+    font-size:20px;
+    font-weight:bold;
+    font-family:Arial;
+    color:white;
+    
+}
+#contact input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+#map fieldset{
+    width:10px;
+}
+#map img {
+    text-align:center;
+    
+}
+#map legend{
+    font-size:20px;
+    font-weight:bold;
+    font-family:Arial;
+    color:white;
+}
+

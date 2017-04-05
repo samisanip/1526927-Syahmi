@@ -66,7 +66,23 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Contact.aspx" />
+    <Content Include="CSS\Contact.css" />
+    <Content Include="CSS\Default.css" />
+    <Content Include="CSS\Products.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="Image\Default\Essence Plus.jpg" />
+    <Content Include="Image\Default\Essence.jpg" />
+    <Content Include="Image\Default\Fixer.jpg" />
+    <Content Include="Image\Default\Location.png" />
+    <Content Include="Image\Default\Pads\Cool Pad.jpg" />
+    <Content Include="Image\Default\Pads\Finishing pad.jpg" />
+    <Content Include="Image\Default\Pads\Lake Pad.jpg" />
+    <Content Include="Image\Default\Pads\Microfiber Pad.jpg" />
+    <Content Include="Image\Default\Reflect.jpg" />
     <Content Include="packages.config" />
+    <Content Include="Products.aspx" />
+    <Content Include="Site.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -75,14 +91,44 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="CSS\MasterPage.css" />
     <Content Include="Global.asax" />
+    <Content Include="Image\CarProHeaderLogo.png" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Contact.aspx.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contact.aspx.designer.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Products.aspx.cs">
+      <DependentUpon>Products.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Products.aspx.designer.cs">
+      <DependentUpon>Products.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

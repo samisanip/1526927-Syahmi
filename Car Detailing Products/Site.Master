@@ -1,0 +1,39 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="Car_Detailing_Products.Site" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Car Detailing Products</title>
+    <link href="CSS/MasterPage.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+       
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+
+    
+       <div id="logo">
+       <img src="Image/CarProHeaderLogo.png" style="height:100px ; width:200px ;"/></div>   
+       <div id="navigation">
+       <ul>
+       <li><a href="Default.aspx">Home</a></li> 
+       <li><a href="Products.aspx">Products</a></li>
+        <li><a href="#">About Us</a></li>
+       <li><a href="Contact.aspx">Contact</a></li>
+        <li><a href="#">Login</a></li>
+       </ul>
+
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+           Desgined by Muhammad Syahmi @COPYRIGHT
+        <div id="footer">
+            <a href="http://validator.w3.org/check?uri=referer">Validate HTML</a>
+            <a href="http://jigsaw.w3.org/css-validator/check/referer">Validate CSSa</a>
+            <a href="http://achecker.ca/checker/?uri=referer">Check WCAG</a>
+            </div>
+    </div>
+    </form>
+</body>
+</html>
