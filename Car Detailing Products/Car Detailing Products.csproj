@@ -82,6 +82,8 @@
     <Content Include="Image\Default\Reflect.jpg" />
     <Content Include="packages.config" />
     <Content Include="Products.aspx" />
+    <Content Include="Scripts\jquery-3.2.1.js" />
+    <Content Include="Scripts\jquery-3.2.1.min.js" />
     <Content Include="Site.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

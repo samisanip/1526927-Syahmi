@@ -9,20 +9,22 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <link href="CSS/Default.css" rel="stylesheet" />
     <div id="home">
-   <table>
+   
+        <table>
       <tr>
-          <td class="auto-style1"><img src="Image/Default/Essence%20Plus.jpg"/></td>
-          <td><img src="Image/Default/Reflect.jpg"/></td>
-          <td><img src="Image/Default/Fixer.jpg" /></td>
-          <td><img src="Image/Default/Essence.jpg" /></td>
+          <td class="auto-style1"><img src="Image/Default/Essence%20Plus.jpg" alt=""/></td>
+          <td><img src="Image/Default/Reflect.jpg" alt=""/></td>
+          <td><img src="Image/Default/Fixer.jpg" alt="" /></td>
+          <td><img src="Image/Default/Essence.jpg" alt=""/></td>
      </tr>
     <tr>
-        <td class="auto-style1"><img src="Image/Default/Pads/Cool%20Pad.jpg" /></td>
-        <td><img src="Image/Default/Pads/Finishing%20pad.jpg" /></td>
-        <td><img src="Image/Default/Pads/Lake%20Pad.jpg" /></td>
-        <td><img src="Image/Default/Pads/Microfiber%20Pad.jpg" /></td>
+        <td class="auto-style1"><img src="Image/Default/Pads/Cool%20Pad.jpg" alt="" /></td>
+        <td><img src="Image/Default/Pads/Finishing%20pad.jpg" alt=""/></td>
+        <td><img src="Image/Default/Pads/Lake%20Pad.jpg" alt="" /></td>
+        <td><img src="Image/Default/Pads/Microfiber%20Pad.jpg" alt=""/></td>
     </tr>
+            </table>
       </div>
-</table>
-    </div>
+
+ 
 </asp:Content>

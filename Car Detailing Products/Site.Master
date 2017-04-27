@@ -15,7 +15,7 @@
 
     
        <div id="logo">
-       <img src="Image/CarProHeaderLogo.png" style="height:100px ; width:200px ;"/></div>   
+       <img src="Image/CarProHeaderLogo.png" alt="" style="height:100px ; width:200px ;"/></div>   
        <div id="navigation">
        <ul>
        <li><a href="Default.aspx">Home</a></li> 
