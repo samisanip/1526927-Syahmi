@@ -22,6 +22,7 @@
                      ErrorMessage="Name Is Required"
                      ControlToValidate="txtName"
                      Text="*"
+                     
                      ForeColor="Red"></asp:RequiredFieldValidator>
                  </td>
              </tr>
@@ -52,6 +53,17 @@
                      Display="Dynamic"
                      Text="*"
                      ForeColor="Red"></asp:RequiredFieldValidator>
+                     <asp:RegularExpressionValidator ID="RegularExpressionValidator1" 
+                         runat="server" 
+                         ErrorMessage="Enter Valid Email"
+                          ControlToValidate="txtEmail" 
+                         ForeColor="Red"
+                         display="Dynamic"
+                          ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*"
+                         Text="*">
+                         
+
+                         </asp:RegularExpressionValidator>
                  </td>
              </tr>
              <tr>

@@ -26,7 +26,7 @@ namespace Car_Detailing_Products
 
                 SmtpClient smtpClient = new SmtpClient("smtp.gmail.com", 587);
                 smtpClient.EnableSsl = true;
-                smtpClient.Credentials = new System.Net.NetworkCredential("car2017pro@gmail.com", "carpro2017");
+                smtpClient.Credentials = new System.Net.NetworkCredential("jet2017pro@gmail.com", "jetpro2017");
                 smtpClient.Send(mailMessage);
 
                 Label1.ForeColor = System.Drawing.Color.Green;
