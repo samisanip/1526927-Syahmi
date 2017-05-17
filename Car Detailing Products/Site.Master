@@ -18,11 +18,11 @@
        <img src="Image/CarProHeaderLogo.png"  alt="" style="height:100px ; width:200px ;"/></div>   
        <div id="navigation">
        <ul>
-       <li><a href="/Default.aspx">Home</a></li> 
-       <li><a href="/Product.aspx">Products</a></li>
-       <li><a href="/Contact.aspx">Contact</a></li>
-        <li><a href="/Pages/Management/CPmanagement.aspx">Admin</a></li>
-
+       <li><asp:HyperLink ID="HyperLink1" NavigateUrl="~/Default.aspx" runat="server" >Home</asp:HyperLink></li> 
+       <li><asp:HyperLink ID="HyperLink2" NavigateUrl="~/Product.aspx" runat="server">Product</asp:HyperLink></li>   
+       <li><asp:HyperLink ID="HyperLink3" NavigateUrl="~/Contact.aspx" runat="server">Contact</asp:HyperLink></li>
+       <li><asp:HyperLink ID="HyperLink4" NavigateUrl="~/Pages/Management/CPmanagement.aspx" runat="server">Admin</asp:HyperLink></li>
+           
         <li style="float:right">
             <asp:HyperLink ID="lnkRegister" NavigateUrl="~/Account/Register.aspx" runat="server">Register</asp:HyperLink>
             <asp:HyperLink ID="litStatus" runat="server" NavigateUrl="~/ShoppingCart.aspx"></asp:HyperLink>

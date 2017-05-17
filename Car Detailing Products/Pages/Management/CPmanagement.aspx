@@ -52,7 +52,7 @@
         </asp:SqlDataSource>
 </p>
     <p>
-        <asp:LinkButton ID="LinkButton2" runat="server" CssClass="button" PostBackUrl="/Pages/Management/ManageProductTypes.aspx">Add New ProductType</asp:LinkButton>
+        <asp:LinkButton ID="LinkButton2" runat="server" CssClass="button" PostBackUrl="~/Pages/Management/ManageProductTypes.aspx">Add New ProductType</asp:LinkButton>
 </p>
 <p>
         <asp:GridView ID="grdProductTypes" runat="server" AllowPaging="True" AllowSorting="True" AutoGenerateColumns="False" DataKeyNames="Id" DataSourceID="sdsProductTypes" BackColor="White" BorderColor="#999999" BorderStyle="Solid" BorderWidth="1px" CellPadding="3" ForeColor="Black" GridLines="Vertical">
