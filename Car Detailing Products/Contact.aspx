@@ -1,5 +1,7 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Contact.aspx.cs" Inherits="Car_Detailing_Products.Contact" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <!--https://www.youtube.com/watch?v=ngldKCSXA6U -->
+    <!--https://www.youtube.com/watch?v=Fw1X7HLZfos -->
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <link href="CSS/Contact.css" rel="stylesheet" />   

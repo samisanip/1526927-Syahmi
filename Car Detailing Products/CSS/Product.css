@@ -1,0 +1,31 @@
+﻿body {
+}
+
+
+#ContentPlaceHolder1_pnlProducts div{
+
+}
+
+.detailImage{
+    width: 400px;
+    height: 400px;
+    margin-right: 20px;
+}
+
+.detailsDescription{
+    width: 400px;
+    font-weight: bold;
+}
+
+.button{
+    padding: 10px;
+    margin: 10px;
+    color: #0094ff;
+    border: 0;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    clear: both;
+    background: linear-gradient(to bottom, darkgreen, green);
+
+}

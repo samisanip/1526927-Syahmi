@@ -15,14 +15,24 @@
 
     
        <div id="logo">
-       <img src="Image/CarProHeaderLogo.png" alt="" style="height:100px ; width:200px ;"/></div>   
+       <img src="Image/CarProHeaderLogo.png"  alt="" style="height:100px ; width:200px ;"/></div>   
        <div id="navigation">
        <ul>
-       <li><a href="Default.aspx">Home</a></li> 
-       <li><a href="Products.aspx">Products</a></li>
-        <li><a href="#">About Us</a></li>
-       <li><a href="Contact.aspx">Contact</a></li>
-        <li><a href="#">Login</a></li>
+       <li><a href="/Default.aspx">Home</a></li> 
+       <li><a href="/Product.aspx">Products</a></li>
+       <li><a href="/Contact.aspx">Contact</a></li>
+        <li><a href="/Pages/Management/CPmanagement.aspx">Admin</a></li>
+
+        <li style="float:right">
+            <asp:HyperLink ID="lnkRegister" NavigateUrl="~/Account/Register.aspx" runat="server">Register</asp:HyperLink>
+            <asp:HyperLink ID="litStatus" runat="server" NavigateUrl="~/ShoppingCart.aspx"></asp:HyperLink>
+        </li>
+        <li style="float:right">
+            <asp:HyperLink ID="lnkLogin" NavigateUrl="~/Account/Login.aspx" runat="server">Login</asp:HyperLink>
+             <asp:LinkButton ID="lnkLogout" runat="server" OnClick="lnkLogout_Click">Log Out</asp:LinkButton>
+        </li>
+       
+          
        </ul>
 
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">

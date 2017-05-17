@@ -11,7 +11,7 @@ namespace Car_Detailing_Products
 {
 
 
-    public partial class Products
+    public partial class Success
     {
     }
 }
